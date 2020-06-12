@@ -1,0 +1,135 @@
+.my-top {
+  height: 340rpx;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  /* margin-top: 20rpx; */
+}
+.my-backimg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -9;
+
+}
+
+.my-marign {
+  height: 300rpx;
+  width: 630rpx;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 30rpx;
+  margin-top: -200rpx;
+  padding: 30rpx;
+  position: relative;
+  box-shadow: 2rpx 2rpx 20rpx #e0e4f7;
+}
+
+.my-avatar {
+  height: 140rpx;
+  width: 140rpx;
+  border-radius: 20rpx;
+  position: absolute;
+  right: 30rpx;
+  top: -30rpx;
+}
+
+.my-items {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 34rpx;
+}
+.my-item {
+  width: 120rpx;
+  font-size: 30rpx;
+  text-align: center;
+}
+
+.my-item > view {
+  position: relative;
+}
+.my-item > view > .dian {
+  height: 30rpx;
+  width: 30rpx;
+  background: red;
+  position: absolute;
+  border-radius: 50%;
+  left: 60rpx;
+  top: -15rpx;
+  font-size: 20rpx;
+  color: #fff;
+}
+.my-item > view > image {
+  width: 80rpx;
+  height: 70rpx;
+}
+.my-item > view > view {
+  margin-top: 20rpx;
+}
+
+.warp {
+  padding: 0rpx 0rpx;
+}
+.warp > .warp_s {
+  /* padding: 32rpx 0; */
+  height: 120rpx;
+  line-height: 120rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eff1f8;
+}
+.warp > .warp_s1 {
+  height: 100rpx;
+  line-height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eff1f8;
+}
+
+.text {
+  font-size: 30rpx;
+  margin: 0;
+  padding: 0;
+  display: inline-blockl;
+  float: left;
+}
+
+.add-wrap {
+  position: fixed;
+
+  top: 20;
+
+  right:0;
+
+  display: flex;
+
+  width: 50%;
+
+  justify-content: center;
+}
+
+user-container {
+	padding: 50rpx 0;
+	/*border: 1px solid black;*/
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 35rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  font-size: 30rpx;
+  font-family: '方正大黑';
+  columns: #fff;
+}

@@ -1,0 +1,25 @@
+
+<view >
+
+	<view bindtap="goIndex">
+		<image  src="{{userInfo.avatarUrl}}" class="userinfo-avatar"/>
+		<text class="userinfo-nickname">{{userInfo.nickName}} </text>	
+	</view>
+</view>
+
+<view class='top-banner'>
+  <swiper class="top-swiper" indicator-dots='true' autoplay='true' interval='10000' duration='1000' circular='true'>
+    <block wx:for="{{ bannerList }}" wx:for-index="index" wx:key="">
+      <swiper-item>
+        <image bindtap='' src='{{ item.url }}' class='u-img-slide' mode='aspectFill'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  </view>
+
+
+
+
+
+
+

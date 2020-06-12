@@ -1,0 +1,202 @@
+/* pages/books/books.wxss */
+
+.content {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.footer {
+  text-align: right;
+}
+
+.round-click{
+    height: 120rpx;
+    width: 120rpx;
+	background-color: green;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 50rpx;
+    right: 20rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+}
+.round-click navigator{
+    font-size: 32rpx;
+    max-width: 80rpx;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.userinfo-avatar {
+  width: 90rpx !important;
+  height: 90rpx !important;
+  margin-left: 10rpx!important;
+  margin-top: 10rpx !important;
+  margin-right: 10rpx !important;
+  margin-bottom: 10rpx !important;
+  border-radius: 50% !important;
+}
+
+.userinfo-nickname {
+  font-size: small !important;
+  font-weight: bold !important;
+  margin: 10rpx !important;
+}
+
+.userinfo-score {
+  font-size: x-small !important;
+  color: #aaa !important;
+  margin: 10rpx !important;
+}
+
+.userinfo-scan-icon {
+  font-size: small !important;
+  font-weight: bold !important;
+  margin-top: 10rpx !important;
+}
+.userinfo-scan {
+  font-size: x-small !important;
+  color: #aaa !important;
+}
+
+.top-banner {
+  position: relative;
+  margin: 0 auto;
+  /* width: 630rpx; */
+  /* padding: 30rpx; */
+  background: #FFF;
+	border-radius: 30rpx;
+}
+
+.top-swiper {
+  height: 300rpx;
+  width: 99%;
+  background: #fff;
+  padding: 10rpx;
+  padding-top: 0;
+}
+
+.u-img-slide {
+  width: 92%;
+  height: 92%;
+  margin: 2% 4%;
+  border-radius: 20rpx;
+}
+
+.top-notice {
+  position: absolute;
+  width: 89%;
+  padding: 15rpx 40rpx;
+  background: #fff;
+}
+
+
+
+.my-marign {
+	height: 100rpx;
+	width: 630rpx;
+	background: #FFF;
+	margin: 0 auto;
+	border-radius: 30rpx;
+	margin-top: 15rpx;
+	padding: 30rpx;
+	position: relative;
+	box-shadow: 2rpx 2rpx 20rpx #e0e4f7;
+  }
+.subject-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30rpx;
+     
+    }
+
+.my-items {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5rpx;
+   
+  }
+.my-item{
+	width: 120rpx;
+	font-size: 25rpx;
+	text-align: center
+}
+
+.my-item>view {
+	position: relative
+  }
+  .my-item>view > .dian {
+	height: 30rpx;
+	width: 30rpx;
+	background: red;
+	position: absolute;
+	border-radius: 50%;
+	left: 60rpx;
+	top: -15rpx;
+	font-size: 20rpx;
+	color: #fff
+  }
+  .my-item> view > image {
+	width: 80rpx;
+	height: 70rpx;
+  }
+  .my-item> view > view {
+	margin-top: 10rpx
+  }
+
+
+  .close_warp {
+    height: 300rpx;
+    width: 500rpx;
+    background: #fff;
+    border-radius: 30rpx;
+  }
+
+  .close {
+    height: 100%;
+    width: 120rpx;
+    /* background: red; */
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 65rpx;
+  }
+  
+  .close > text {
+    font-size: 30rpx;
+  }
+  
+  .closeIcon {
+    width: 120rpx;
+    height: 120rpx;
+    margin-top: 64rpx;
+  }
+
+  .my-bottom {
+    height: 300rpx;
+    width: 630rpx;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 30rpx;
+    margin-top: 60rpx;
+    padding: 30rpx;
+    position: relative;
+    box-shadow: 2rpx 2rpx 20rpx #e0e4f7;
+  }
+
+  user-container {
+    padding: 50rpx 0;
+    /*border: 1px solid black;*/
+  }
+
+ 
+

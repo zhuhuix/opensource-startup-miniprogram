@@ -1,0 +1,28 @@
+<view class='my-top'>
+	<image class='my-backimg' src='../../images/my-backimg.png' />		
+</view>
+
+<view class='my-marign'> 
+	<view class="user-container bg-white" >
+    <view class="userinfo">
+        <block wx:if="{{!hasLogin}}">
+            <image class="userinfo-avatar" src="../../images/login.png" background-size="cover" catchtap="goIndex"></image>
+            <text class="userinfo-nickname" catchtap="goIndex">点击登录</text>
+        </block>
+        <block wx:else>
+            <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+			<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+			<view type="margin-top:18rpx;">
+			</view>
+        </block> 
+    </view>
+</view>
+	
+</view>
+
+
+
+
+
+
+
